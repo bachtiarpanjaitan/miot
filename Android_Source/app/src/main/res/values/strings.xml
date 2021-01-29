@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">MIOT</string>
+    <string name="title_activity_login">Masuk</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in"> MASUK </string>
+    <string name="action_sign_in_short">MASUK</string>
+    <string name="error_invalid_email">Email tidak valid</string>
+    <string name="error_invalid_password">Password terlalu pendek</string>
+    <string name="error_incorrect_password">Password tidak cocok</string>
+    <string name="error_field_required">Isian dibutuhkan</string>
+    <string name="action_register">DAFTAR</string>
+    <string name="permission_rationale">"Ijin dibutuhkan untuk menyelesaikan langkah ini."
+    </string>
+    <string name="smsNotification">Sepertinya Akun MIOT anda sedang diakses dari Perangkat lain, Amankan akun anda dengan mengganti password.</string>
+</resources>

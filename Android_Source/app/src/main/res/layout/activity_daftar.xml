@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.bachtiarpanjaitan.miot.DaftarActivity">
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:padding="@dimen/activity_vertical_margin"
+        android:layout_height="fill_parent">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical"
+            tools:layout_editor_absoluteX="8dp"
+            tools:layout_editor_absoluteY="6dp">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@android:color/transparent"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:paddingBottom="@dimen/activity_vertical_margin"
+                android:paddingTop="@dimen/activity_vertical_margin">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:text="DAFTAR AKUN MIOT"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="30sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+
+            <EditText
+                android:id="@+id/txt_daftar_nama"
+                style="@style/AppTheme"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/style"
+                android:ems="10"
+                android:fontFamily="monospace"
+                android:hint="Nama Anda"
+                android:textAlignment="viewStart"
+                android:textSize="18sp"
+                android:typeface="monospace" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/activity_horizontal_margin" />
+
+            <EditText
+                android:id="@+id/txt_daftar_email"
+                style="@style/AppTheme"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/style"
+                android:ems="10"
+                android:fontFamily="monospace"
+                android:hint="Email Anda"
+                android:inputType="textEmailAddress"
+                android:textAlignment="viewStart"
+                android:textSize="18sp"
+                android:typeface="monospace" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/activity_horizontal_margin" />
+
+            <EditText
+                android:id="@+id/txt_daftar_alamat"
+                style="@style/AppTheme"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/style"
+                android:ems="10"
+                android:fontFamily="monospace"
+                android:hint="Alamat Lengkap"
+                android:inputType="textPersonName"
+                android:textAlignment="viewStart"
+                android:textSize="18sp"
+                android:typeface="monospace" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/activity_horizontal_margin" />
+
+            <EditText
+                android:id="@+id/txt_daftar_telepon"
+                style="@style/AppTheme"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/style"
+                android:ems="10"
+                android:fontFamily="monospace"
+                android:hint="Telepon"
+                android:inputType="phone"
+                android:textAlignment="viewStart"
+                android:textSize="18sp"
+                android:typeface="monospace" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/activity_horizontal_margin" />
+
+            <EditText
+                android:id="@+id/txt_daftar_bluetooth"
+                style="@style/AppTheme"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/style"
+                android:ems="10"
+                android:fontFamily="monospace"
+                android:hint="Alamat Bluetooth"
+                android:inputType="text"
+                android:maxLength="17"
+                android:textAlignment="viewStart"
+                android:textSize="18sp"
+                android:typeface="monospace" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/activity_horizontal_margin" />
+
+            <EditText
+                android:id="@+id/txt_daftar_plat"
+                style="@style/AppTheme"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/style"
+                android:ems="10"
+                android:fontFamily="monospace"
+                android:hint="Nomor Polisi"
+                android:inputType="text"
+                android:maxLength="9"
+                android:textAlignment="viewStart"
+                android:textSize="18sp"
+                android:typeface="monospace" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/activity_horizontal_margin" />
+
+            <EditText
+                android:id="@+id/txt_daftar_password"
+                style="@style/AppTheme"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/style"
+                android:ems="10"
+                android:fontFamily="monospace"
+                android:hint="Password"
+                android:inputType="textPassword"
+                android:textAlignment="viewStart"
+                android:textSize="18sp"
+                android:typeface="monospace" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/activity_horizontal_margin" />
+
+            <EditText
+                android:id="@+id/txt_daftar_upassword"
+                style="@style/AppTheme"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/style"
+                android:ems="10"
+                android:fontFamily="monospace"
+                android:hint="Ulangi Password"
+                android:inputType="textPassword"
+                android:textAlignment="viewStart"
+                android:textSize="18sp"
+                android:typeface="monospace" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/activity_horizontal_margin" />
+
+            <Button
+                android:id="@+id/btn_daftar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/action_register"
+                android:textStyle="bold" />
+        </LinearLayout>
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>
